@@ -1,3 +1,5 @@
+//This is the old version of the code which doesnt have a GUI interface implemented
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
