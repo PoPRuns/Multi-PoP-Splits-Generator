@@ -44,6 +44,7 @@ namespace Multi_PoP_Splits_Generator
             // 
             // comboBox1
             // 
+            this.comboBox1.Enabled = false;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Anthology",

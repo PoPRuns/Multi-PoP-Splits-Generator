@@ -21,6 +21,7 @@ namespace Multi_PoP_Splits_Generator
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            comboBox1.SelectedIndex = 1;
             if (!backgroundWorker1.IsBusy)
                 backgroundWorker1.RunWorkerAsync();
         }
@@ -201,10 +202,6 @@ namespace Multi_PoP_Splits_Generator
             label1.Invoke((MethodInvoker)delegate
             {
                 label1.ForeColor = SystemColors.ControlDark;
-            });
-            comboBox1.Invoke((MethodInvoker)delegate
-            {
-                comboBox1.Enabled = true;
             });
             label2.Invoke((MethodInvoker)delegate
             {
@@ -958,10 +955,6 @@ namespace Multi_PoP_Splits_Generator
             label1.Invoke((MethodInvoker)delegate
             {
                 label1.ForeColor = SystemColors.ControlText;
-            });
-            comboBox1.Invoke((MethodInvoker)delegate
-            {
-                comboBox1.Enabled = true;
             });
             label2.Invoke((MethodInvoker)delegate
             {
